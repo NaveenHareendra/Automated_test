@@ -1,8 +1,15 @@
 from openai import OpenAI
 import requests
+client = OpenAI(
+  api_key=""
+)
 
+
+# //_git/
+r = requests.get('https://dev.azure.com/PeoplesHR/HRM/_apis/git/repositories/HRM-DB/pullrequests?api-version=7.1')
 
 # print(r)
+what is this?? not a variable? Error
 
 response = client.responses.create(
   model="gpt-5-nano",
