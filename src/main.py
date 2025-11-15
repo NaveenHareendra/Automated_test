@@ -4,6 +4,8 @@ import requests
 
 # print(r)
 
+just another wrong line
+
 response = client.responses.create(
   model="gpt-5-nano",
   reasoning={"effort": "low"},
