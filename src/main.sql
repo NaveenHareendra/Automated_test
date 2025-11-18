@@ -1,5 +1,7 @@
 
-Create table babablacksheep();
+Create table babablacksheep(
+    WrongSQL
+);
 
 
 /*
