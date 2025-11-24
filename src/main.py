@@ -9,7 +9,7 @@ client = OpenAI(
 r = requests.get('https://dev.azure.com/PeoplesHR/HRM/_apis/git/repositories/HRM-DB/pullrequests?api-version=7.1')
 
 # print(r)
-what is this again?? not a variable? Error
+#what is this again?? not a variable? Error
 
 response = client.responses.create(
   model="gpt-5-nano",
